@@ -70,6 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
               )
             ],
           ),
+          floatingActionButton: FloatingActionButton(
+            child: const Icon(Icons.draw),
+            onPressed: () {},
+          ),
           bottomNavigationBar: BottomAppBar(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
